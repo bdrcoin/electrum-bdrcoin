@@ -1,0 +1,22 @@
+# If you want Electrum-BDRcoin to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-bdrcoin.desktop
+
+[Desktop Entry]
+Comment=Lightweight BDRcoin Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-bdrcoin %u"
+GenericName[en_US]=BDRcoin Wallet
+GenericName=BDRcoin Wallet
+Icon=electrum
+Name[en_US]=Electrum BDRcoin Wallet
+Name=Electrum BDRcoin Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/bdrcoin;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-bdrcoin --testnet %u"
+Name=Testnet mode

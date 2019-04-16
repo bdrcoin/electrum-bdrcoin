@@ -1,0 +1,38 @@
+{
+    "el1.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    },
+    "el2.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    },
+    "el3.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    },
+    "el4.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    },
+    "el5.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    },
+    "el6.bdrcoin.top": {
+        "pruning": "-",
+        "t": "22020",
+        "s": "22021",
+        "version": "1.4"
+    }
+}
